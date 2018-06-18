@@ -1,0 +1,16 @@
+body{
+}
+
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.fa, .far, .fas {
+    font-size: 75px;
+    margin-top: 60px;
+}
+
