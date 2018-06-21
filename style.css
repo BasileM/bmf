@@ -1,14 +1,13 @@
 /* style.css */
-@import url('https://fonts.googleapis.com/css?family=Lato|Ubuntu:400,500');/*font-family: 'Lato', sans-serif;
-
-
+@import url('https://fonts.googleapis.com/css?family=Lato|Ubuntu:400,500');
 
 body {
-  font-family: 'lato', sans-serif;*/
+  background: rgb(32,34,48) !important;
+  font-family: 'lato', sans-serif !important;
+  color: #ededed !important;
 }
 
 h1 {
-
 }
 
 h2 {
@@ -36,6 +35,18 @@ ul {
   margin-left: -40px;
 }
 
+p {
+  color: #ededed;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ededed !important;
+}
+
+nav-item nav-link active {
+  color: #f8c400 !important;
+}
+
 .container {
 }
 
@@ -55,7 +66,7 @@ ul {
     font-size: 75px;
     margin-top: 80px;
     margin-right: 180px;
-    color: #000;
+    color: #ededed;
 }
 
 .footer {
