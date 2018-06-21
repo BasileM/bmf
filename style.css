@@ -39,7 +39,16 @@ p {
   color: #ededed;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar-nav {
+  padding-left: 55px;
+  padding-top: 5px;
+}
+
+.navbar-light .nav-link {
   color: #ededed !important;
 }
 
