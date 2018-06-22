@@ -10,6 +10,7 @@ body {
 h1 {
 }
 
+
 h2 {
   text-transform: uppercase;
   font-size: 70px;
@@ -39,6 +40,19 @@ p {
   color: #ededed;
 }
 
+p lego {
+  text-align:right;
+  border-bottom: 1px solid white;
+  line-height:0.1em;
+  margin:10px 0 20px;
+  width:80%;
+}
+
+
+p span {
+  background:rgb(32,34,48); padding:0;
+}
+
 .navbar {
     margin-top: 20px;
 }
@@ -56,7 +70,9 @@ nav-item nav-link active {
   color: #f8c400 !important;
 }
 
-.container {
+.col {
+  margin-top: 50px;
+  width: 900px;
 }
 
 #bloc {
@@ -71,6 +87,45 @@ nav-item nav-link active {
     max-width: 420px;
 }
 
+.lego {
+    margin: auto;
+    margin-left: 100px;
+    background-color: rgb(32,34,48);
+}
+
+.line{
+  border-bottom: 1px solid white;
+}
+
+
+#numero1 {
+  z-index:5;
+  position: sticky;
+  top: 70px;
+  display: flex;
+}
+
+#numero2 {
+  z-index:4;
+  position: sticky;
+  top: 200px;
+  display: flex;
+}
+
+#numero3 {
+  z-index:3;
+  position: sticky;
+  top: 330px;
+  display: flex;
+}
+
+#numero4 {
+  z-index:2;
+  position: sticky;
+  top: 460px;
+  display: flex;
+}
+
 .fa, .far, .fas {
     font-size: 75px;
     margin-top: 80px;
@@ -83,8 +138,3 @@ nav-item nav-link active {
     margin-top: 90px;
     padding-top: 20px;
 }
-
-.lego-display {
-  margin: -20px;
-}
-
