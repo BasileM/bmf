@@ -1,9 +1,10 @@
 /* style.css */
 @import url('https://fonts.googleapis.com/css?family=Lato|Ubuntu:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
 
 body {
   background: rgb(32,34,48) !important;
-  font-family: 'lato', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
   color: #ededed !important;
 }
 
@@ -14,7 +15,8 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-size: 70px;
-  font-family: 'Ubuntu', sans-serif;*/
+  font-family: 'Robotof', sans-serif;*/
+  font-weight: 400 !important;
 }
 
 /*type de métiers*/
